@@ -11,57 +11,55 @@ public class Product {
     //str.substring(indexStart[, indexEnd])
 
 
-    public Product(String pageProduct, String available, String tagName, String tagPrice, String tagImage) {
-        this.pageProduct = pageProduct;
-        this.available = available;
-        this.tagName = tagName;
-        this.tagPrice = tagPrice;
-        this.tagImage = tagImage;
+
+
+    public Product() {
+
     }
 
-//    public Product(String tagName, String tagPrice, String tagImage) {
-//        this.tagName = tagName;
-//        this.tagPrice = tagPrice;
-//        this.tagImage = tagImage;
-//    }
 
     public String getPageProduct() {
         return pageProduct;
     }
 
-    public void setPageProduct(String pageProduct) {
+    public String setPageProduct(String pageProduct) {
         this.pageProduct = pageProduct;
+        return pageProduct;
     }
 
     public String getAvailable() {
         return available;
     }
 
-    public void setAvailable(String available) {
+    public String setAvailable(String available) {
         this.available = available;
+        return available;
     }
 
     public String getTagName() {
         return tagName;
     }
 
-    public void setTagName(String tagName) {
+    public String setTagName(String tagName) {
         this.tagName = tagName;
+        return tagName;
     }
 
     public String getTagPrice() {
         return tagPrice;
     }
 
-    public void setTagPrice(String tagPrice) {
+    public String setTagPrice(String tagPrice) {
         this.tagPrice = tagPrice;
+        return tagPrice;
     }
 
     public String getTagImage() {
         return tagImage;
     }
 
-    public void setTagImage(String tagImage) {
+    public String setTagImage(String tagImage) {
         this.tagImage = tagImage;
+        return tagImage;
     }
 }
