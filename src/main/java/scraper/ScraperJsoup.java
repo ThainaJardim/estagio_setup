@@ -18,4 +18,6 @@ public class ScraperJsoup {
         System.out.println(elements);
     }
 
+
+
 }
